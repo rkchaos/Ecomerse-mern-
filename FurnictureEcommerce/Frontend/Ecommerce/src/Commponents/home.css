@@ -1,0 +1,86 @@
+nav{
+    margin-left: 500px;
+    /* 1223 */
+}
+.firstimg{
+    margin-left: 520px;
+}
+.sofaset{
+    display: flex;
+    gap: 100px;
+}
+.firstsofa{
+    margin-left: 100px;
+}
+#price{
+margin-left: 60px;
+}
+#cart{
+    width: 20px;
+    height: 26px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+#popular{
+    height: 272px;
+    width: auto;
+}
+#sofa{
+    height: 172px;
+    width: auto;
+}
+@media screen and (max-width:1223px) {
+    nav{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:1223px) {
+    .firstimg{
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:1223px) {
+    .firstimg{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:1202px) {
+    #cart{
+        margin-left: 90px;
+    }
+}
+@media screen and (max-width:991px) {
+    #popular{
+        height: 200px;
+        width: auto;
+    }
+}
+@media screen and (max-width:991px) {
+    #sofa{
+        height: 150px;
+        width: auto;
+    }
+}
+@media screen and (max-width:635px) {
+    nav{
+        margin-left: 100px;
+    }
+    .firstimg{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .firstimg{
+        display: none;
+    }
+    .third{
+        display: none;
+    }
+    .second{
+        display: none;
+    }
+    .fourt{
+        display: none;
+    }
+}
